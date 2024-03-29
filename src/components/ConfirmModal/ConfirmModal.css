@@ -1,0 +1,37 @@
+.confirm-modal{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 6;
+    background-color: rgba(10, 10, 10, 0.7);
+    
+}
+
+.confirm-box{
+    max-width: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 0 15px gray;
+    margin-top: 100px;
+}
+
+.confirm-btns{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.yes-btn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.no-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}

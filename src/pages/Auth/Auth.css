@@ -1,0 +1,83 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-top: 100px; */
+    
+   
+}
+.auth-comp{
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url("../../images/pexels-photo.jpg") ;
+    background-size: 100%;
+}
+.auth .left-auth{
+    /* backdrop-filter: blur(10px); */
+}
+.auth .left-auth img{
+    max-width: 400px;
+}
+.auth .left-auth .app-name{}
+.auth .left-auth .app-name h1{
+    text-align: center;
+}
+.auth .left-auth .app-name h6{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.auth .right-auth{
+    /* backdrop-filter: blur(10px); */
+    padding: 20px;
+    border-radius: 16px;
+    min-width: 400px;
+
+}
+.auth .right-auth form {}
+.auth .right-auth form h3 {
+    font-size: 35px;
+    text-align: center;
+   
+
+}
+.auth .right-auth form div {
+    padding: 10px;
+}
+.auth .right-auth form div span{
+    cursor: pointer;
+}
+.auth .right-auth form div input {
+    width: 100%;
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid dodgerblue;
+    outline: 1px solid dodgerblue;
+}
+.auth .right-auth form button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+.auth .right-auth form button:hover{
+    width: 220px;
+    height: 45px;
+}
+.auth .right-auth form button:disabled{
+    cursor: alias;
+    background-color: silver;
+}
+
+.confirm-span{
+    color: red;
+}

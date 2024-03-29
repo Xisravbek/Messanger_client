@@ -1,0 +1,34 @@
+.search-user{
+    width: 350px;
+}
+
+.search-box{}
+hr{
+    margin-top: 10px;
+}
+
+img.logo-app{
+    max-width: 50px;
+}
+
+.search-input-box{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+input.search-input{
+    border-radius: 8px;
+    box-shadow: 0 0 10px dodgerblue;
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    color: dodgerblue;
+}
+h1.users-title{
+    text-align: center;
+    margin: 20px 0 10px 0;
+}

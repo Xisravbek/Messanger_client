@@ -1,0 +1,129 @@
+.container{
+    max-width: 1300px;
+    margin:  auto;
+    padding: 0 20px;
+}
+
+.chat-page{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 20px;
+    
+}
+.chat{
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.left-side , .right-side, .middle-side{
+    box-shadow: 0 0 15px darkmagenta;
+    border-radius: 16px;
+    max-width: 400px;
+    padding: 28px;
+}
+.middle-side{
+    max-width: 600px;
+}
+
+.rigth-side-top{
+    width: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.chat-item{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.middle-side{
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 2px;
+}
+
+.setting-btn{
+    display: flex;
+    align-items: center;
+}
+
+h3.not-found{
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+}
+.open-users{
+  display: none;  
+}
+
+.users-close-btn{
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.open-chats{
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .chat{
+        
+    }
+    .left-side{
+        display: none;
+    }
+    .open-users{
+        display: block;
+        height: 40px;
+    }
+    .users-media{
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: calc(50% - 200px);
+        background-color: white;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 870px){
+    .chat-page{
+        gap: 20px;
+        justify-content: center;
+    }
+    .right-side{
+        display: none;
+    }
+    .chat-media{
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: calc(50% - 200px);
+        background-color: white;
+    
+    }
+    .open-chats{
+        display: block;
+    }
+}

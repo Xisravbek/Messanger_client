@@ -1,0 +1,79 @@
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.chat-box{
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+.chat-sender{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+}
+.message-file-input{
+    display: none;
+}
+
+.chat-body{
+    height: 65vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin-top: 10px;
+}
+
+.send-btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.message{
+    padding: 8px;
+    border-radius: 10px 10px 10px 0 ;
+    background-color: lightgreen;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    /* width: max-content; */
+    max-width: 80%;
+}
+
+.own{
+    border-radius: 10px 10px 0 10px;
+    background-color: violet;
+    align-self: flex-end;
+}
+
+span.message-date{
+    font-size: 14px;
+    color: darkblue;
+}
+
+.users-message-img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.fa-image{
+    font-size: 28px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.react-input-emoji--input{
+    overflow-y: scroll;
+    scrollbar-width: none ;
+    width: 250px;
+    max-width: 250px;
+    max-height: 50px !important;
+}

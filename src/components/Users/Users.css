@@ -1,0 +1,77 @@
+.user-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 4px;
+    border-radius: 8px;
+    
+    
+}
+
+.user-card:hover{
+    background-color: rgb(240, 237, 237);
+    cursor: pointer;
+}
+.user-image{
+    position: relative;
+}
+img.user-profileImage{
+    max-width: 40px;
+    border-radius: 50%;
+    min-height: 45px;
+    object-fit: cover;
+}
+.user-info{
+
+}
+.user-title{
+    font-size: 22px;
+    max-width: 120px;
+}
+
+.exit{
+    background-color: white;
+    color: red;
+    box-shadow: 0 0 10px red;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.message-img{
+    max-width: 40px;
+}
+
+.msg-btn{
+    background-color: transparent;
+}
+
+.user-info-box{
+    display: flex;
+    gap: 5px;
+}
+
+.online-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(16, 255, 16);
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+
+.status{
+    color: dodgerblue;
+}
+
+.all-users{
+    max-height: 68vh;
+    overflow-y: scroll;
+    scroll-snap-stop: always;
+    scrollbar-width: none;
+}

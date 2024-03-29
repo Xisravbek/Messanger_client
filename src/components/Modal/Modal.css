@@ -1,0 +1,97 @@
+.info-modal{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 4;
+    background-color: rgba(222, 210, 210, 0.5);
+}
+.close-btn-box{
+    display: flex;
+    justify-content: right;
+    /* padding:  10px 10px 0 0; */
+}
+.close-btn{
+    
+    width: 40px;
+}
+.close-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.info-card{
+    max-width: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 0 15px gray;
+}
+.profile-imgs{
+    position: relative;
+}
+
+.profile-imgs .cover-img{
+    width: 400px;
+    max-height: 200px;
+
+    
+}
+
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 75px) ;
+}
+
+.users-information{
+    margin-top: 40px;
+}
+
+.name-user{
+    margin-bottom: 8px;
+}
+
+
+form.info-form{
+    margin-top: 50px;
+}
+
+.info-input{
+    display: block;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px dodgerblue;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+.update-btn{
+    width: 80px;
+    height: 35px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#cover-id , #profile-id{
+    display: none;
+}
+
+.delete-btn{
+    background-color: red;
+    color: wheat;
+    height: 35px;
+    margin-left: 150px;
+}
